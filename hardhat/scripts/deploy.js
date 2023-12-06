@@ -19,5 +19,5 @@ main().catch((error) => {
 });
 
 // Get the address of Axelar Gateway and Gas Service contracts on testnet here: https://docs.axelar.dev/resources/testnet
-// Fantom testnet: 0xC1b3321A34250bfadCfaD824E99Ba80B91CeCDEF
-// Avalanche testnet: 0x9AD0A88037CCcf1c736E5a39a9D3704D98691028
+// Fantom testnet: 0x487ebB8dbEbD846B3CC498ba968C70Beb8D42c2c
+// Avalanche testnet: 0x82efed151f26709f43248E6c1ABC77D7e1F59F48
