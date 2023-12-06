@@ -1,10 +1,10 @@
-# Cross-chain Airdrop DApp
+# Devfest Lagos Student Edition Demo with Axelar
 
-This is a cross-chain airdrop DApp that allows users to airdrop tokens from one chain to another. This DApp is built using Solidity, Next.js and [Axelar General Message Passing](https://docs.axelar.dev/dev/general-message-passing/overview).
+This is a cross-chain bounty DApp that allows users to send tokens as bounty from one chain to another. This DApp is built using Solidity, Next.js and [Axelar General Message Passing](https://docs.axelar.dev/dev/general-message-passing/overview).
 
 ## **Table of Contents**
 
-- [**Features**](https://github.com/axelarnetwork/cross-chain-airdrop-dapp#features)
+- [**Features**](https://github.com/Olanetsoft/devfest-lagos-student-edition-demo-with-axelar#features)
 - [**Installation**](#installation)
 - [**Usage**](#usage)
 - [**Technologies Used**](#technologies-used)
@@ -12,11 +12,11 @@ This is a cross-chain airdrop DApp that allows users to airdrop tokens from one 
 
 ## **Features**
 
-- Token airdrop from one chain to another
-- Airdrop stats
+- Token from one chain to another
+- Bounty stats
 - User-friendly interface with dark mode support
 - Integration with Axelar General Message Passing
-- Real-time response and airdrop status updates
+- Real-time response and bounty status updates
 
 ## **Installation**
 
@@ -25,13 +25,13 @@ To install and run this application locally, follow these steps:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/axelarnetwork/cross-chain-airdrop-dapp.git
+   git clone https://github.com/Olanetsoft/devfest-lagos-student-edition-demo-with-axelar.git
    ```
 
 2. Navigate to the project directory:
 
    ```bash
-   cd cross-chain-airdrop-dapp
+   cd devfest-lagos-student-edition-demo-with-axelar
    ```
 
 3. Install the dependencies:
@@ -58,10 +58,11 @@ To install and run this application locally, follow these steps:
 6. Compile and Deploy the smart contracts:
 
    ```bash
+   npm i
    npx hardhat run scripts/deploy.js --network <network>
    ```
 
-   Replace `<network>` with the desired network (e.g. `Fantom` and `avalancheTestnet` in this case). Copy the contract address once the deployment is complete.
+   Replace `<network>` with the desired network (e.g. `fantom` and `avalanche` in this case). Copy the contract address once the deployment is complete.
 
    > Ensure you update the Axelar gateway and gas service address for Binance and Avalanche respectively in `deploy.js` file under the `scripts` directory and deploy them separately. You can find the gateway and gas service address [here](https://docs.axelar.dev/resources/testnet).
 
@@ -91,9 +92,9 @@ Open your web browser and visit [`http://localhost:3000`](http://localhost:3000)
 
 1. Connect your wallet to the DApp. Ensure you have some test tokens in your wallet.
 2. Approve the DApp to spend your tokens.
-3. Enter the amount of tokens you want to airdrop, receivers addresses and click on the `Send` button.
+3. Enter the amount of tokens for the bounty, receivers addresses and click on the `Send` button.
 4. Confirm the transaction in your wallet.
-5. Wait for the transaction to be confirmed. You can check the status of the transaction in the `Airdrop Stats` section.
+5. Wait for the transaction to be confirmed. You can check the status of the transaction in the `Bounty Stats` section.
 
 ## **Technologies Used**
 

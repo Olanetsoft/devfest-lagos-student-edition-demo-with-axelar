@@ -225,7 +225,7 @@ export default function Home() {
     <div className="container mx-auto px-4 flex flex-col min-h-screen">
       <header className="py-4">
         <div className="flex justify-between items-center">
-          <a href="/https" className="text-2xl font-bold text-gray-800">
+          <a href="https://github.com/Olanetsoft/devfest-lagos-student-edition-demo-with-axelar" className="text-2xl font-bold text-gray-800">
             <FaGithub />
           </a>
           <ConnectButton />
